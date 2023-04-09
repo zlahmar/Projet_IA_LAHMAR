@@ -1,16 +1,52 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
-    <style name="Theme.Projet_IA_LAHMAR" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.B3DevAIAndroid" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorPrimary">@color/green_3</item>
+        <item name="colorPrimaryVariant">@color/green_2</item>
         <item name="colorOnPrimary">@color/white</item>
+        <item name="android:background">@color/white</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorSecondary">@color/green_2</item>
+        <item name="colorSecondaryVariant">@color/green_3</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:statusBarColor">@color/green_1</item>
         <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.B3DevAIAndroidSplash" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/green_2</item>
+        <item name="colorPrimaryVariant">@color/green_1</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:background">@color/green_3</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/green_3</item>
+        <item name="colorSecondaryVariant">@color/green_1</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/green_1</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="EditTextEpsi" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginTop">50dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:inputType">text</item>
+        <item name="android:ems">10</item>
+    </style>
+
+    <style name="ButtonEpsi" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_marginTop">25dp</item>
+        <item name="android:layout_marginBottom">25dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
     </style>
 </resources>

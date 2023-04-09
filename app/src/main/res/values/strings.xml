@@ -1,3 +1,20 @@
 <resources>
-    <string name="app_name">Projet_IA_LAHMAR</string>
+    <string name="app_name">IA Project</string>
+    <string name="txt_title_epsi" translatable="false">IA EPSI</string>
+
+    <string name="btn_info">Info</string>
+    <string name="btn_produits" translatable="false">Produits</string>
+
+    <string name="txt_info">Info</string>
+    <string name="txt_produits">Produits</string>
+
+    <string name="info_etudiant">Info Etudiant</string>
+    <string name="epsi_link">https://www.epsi.fr/</string>
+
+    <string name="categories_title">Rayons</string>
+    <string name="placeholder">placeholder</string>
+    <string name="produits_list_title"></string>
+    <string name="description">Description : </string>
+
+
 </resources>
