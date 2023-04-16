@@ -39,8 +39,8 @@ open class BaseActivity : AppCompatActivity(){
         Log.e("EPSI IA Project","################ onDestroy :"+javaClass.simpleName)
     }
 
-    fun setHeaderTitle(Title: String?) {
-        val textViewTitle = findViewById<TextView>(R.id.textViewTitle)
+    fun setHeaderTitle( title:String?){
+        val textViewTitle= findViewById<TextView>(R.id.textViewTitle)
         textViewTitle.setText(title)
     }
 

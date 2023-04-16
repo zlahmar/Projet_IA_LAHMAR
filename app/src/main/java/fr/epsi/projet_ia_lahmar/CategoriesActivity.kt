@@ -31,7 +31,7 @@ class CategoriesActivity : BaseActivity() {
 
         okHttpClient.newCall(request).enqueue(object : Callback {
             override fun onFailure(call: Call, e: IOException) {
-                // Implémenter le corps de la méthode onFailure si nécessaire
+                TODO("Not yet implemented")
             }
 
             override fun onResponse(call: Call, response: Response) {

@@ -10,7 +10,7 @@ class ProduitsDetailsActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_produits_details)
         showBack()
-        val product = intent.getSerializableExtra("product") as? Produits
+        val product = intent.getSerializableExtra("Produit") as? Produits
         setHeaderTitle("${product?.name}")
 
         val imageViewProduct = findViewById<ImageView>(R.id.productimage)

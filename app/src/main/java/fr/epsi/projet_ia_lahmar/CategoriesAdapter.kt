@@ -20,7 +20,6 @@ class CategoriesAdapter (private val categories: ArrayList<Categories>):Recycler
             .inflate(R.layout.cell_categories, viewGroup, false)
         return ViewHolder(view)
     }
-
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val category = categories[position]
         holder.textViewTitle.text=category.title
